@@ -3,7 +3,7 @@
   "bugs": {
     "url": "https://github.com/ahl5esoft/lite-ts-error/issues"
   },
-  "description": "a mocking framework for the Typescript programming language",
+  "description": "",
   "devDependencies": {
     "@types/mocha": "^10.0.1",
     "@types/node": "^18.11.18",
