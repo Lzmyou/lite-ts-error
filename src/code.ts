@@ -42,4 +42,8 @@ export enum ErrorCode {
      * 服务端异常
      */
     panic = 599,
+    /**
+     * 订单错误
+     */
+    orderError = 9,
 }
