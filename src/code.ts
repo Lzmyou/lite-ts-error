@@ -3,47 +3,47 @@
  */
 export enum ErrorCode {
     /**
-     * 提示
-     */
-    tip = 1,
-    /**
-     * 警告
-     */
-    warning = 2,
-    /**
      * api不存在
      */
     api = 501,
     /**
      * 认证失败
      */
-    auth,
+    auth = 502,
     /**
-     * 请求数据不符合条件
+     * 订单错误
      */
-    verify,
-    /**
-     * 请求超时
-     */
-    timeout,
-    /**
-     * 数值类型不足
-     */
-    valueTypeNotEnough,
-    /**
-     * 重定向
-     */
-    redirect,
-    /**
-     * 等待锁
-     */
-    waitLock,
+    orderError = 9,
     /**
      * 服务端异常
      */
     panic = 599,
     /**
-     * 订单错误
+     * 重定向
      */
-    orderError = 9,
+    redirect = 506,
+    /**
+     * 请求超时
+     */
+    timeout = 504,
+    /**
+     * 提示
+     */
+    tip = 1,
+    /**
+     * 数值类型不足
+     */
+    valueTypeNotEnough = 505,
+    /**
+     * 请求数据不符合条件
+     */
+    verify = 503,
+    /**
+     * 等待锁
+     */
+    waitLock = 507,
+    /**
+     * 警告
+     */
+    warning = 2,
 }
